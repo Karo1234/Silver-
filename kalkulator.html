@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<script type="text/javascript">
+
+
+   function myFunction(x){
+
+   document.getElementById('text1').value +=x;
+
+   }
+
+   function  myFunc(a){
+   	var a = document.getElementById("text1").value;
+   	document.getElementById("text1").value +='='+eval(a);
+   }
+
+	</script>
+</head>
+<body>
+<table>
+<tr>
+	<td>
+		<input type="text" id="text1"><br>
+		<input type="button" value="1"  onclick="myFunction('1')">
+	    <input type="button" value="2"  onclick="myFunction('2')">
+		<input type="button" value="+"  onclick="myFunction(this.value)">
+		<input type="button" value="="  onclick="myFunc(this)">
+
+	   
+	</td>
+</tr>
+</table>
+</form>
+
+
+</body>
+</html>
