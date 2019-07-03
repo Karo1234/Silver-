@@ -1,0 +1,61 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<script type="text/javascript"  src = "calculator.js"  ></script>
+<title>Документ без названия</title>
+<style>
+input[type = "button"]{
+	
+	background:#666;
+	border:2px solid #585DB9;
+	
+	}
+#calc{
+	height:35px;
+	width:170px;
+	background:#999;
+	font-size:20px;
+	border:2px solid ;
+     	
+	}	
+	
+	
+</style>
+</head>
+
+<body>
+ 
+ <form   align = "center">
+ <input type="text"  size = "20"  id="calc"><br><br>
+  <input type="button" value = '1' style = "padding: 10px" onclick = "btn('1')">&nbsp;
+    <input type="button" value = '2' style = "padding:10px"  onclick = "btn('2')">&nbsp;
+  <input type="button" value = '3' style = "padding:10px" onclick = "btn('3')">&nbsp;
+  <input type="button" value = '+' style = "padding:10px"  onclick = "Sign('+')">&nbsp;
+  <br><br>
+  <input type="button" value = '4' style = "padding:10px"  onclick = "btn('4')">&nbsp;
+  <input type="button" value = '5' style = "padding:10px"  onclick = "btn('5')">&nbsp;
+  <input type="button" value = '6' style = "padding:10px"  onclick = "btn('6')">&nbsp;
+  <input type="button" value = '-' style = "padding:10px"  onclick = "Sign('-')">&nbsp;
+<br><br>
+  <input type="button" value = '7' style =   "padding:10px"  onclick = "btn('7')">&nbsp;
+  <input type="button" value = '8' style = "padding:10px"  onclick = "btn('8')">&nbsp;
+  <input type="button" value = '9' style = "padding:10px"  onclick = "btn('9')">&nbsp;
+  <input type="button" value = '*' style = "padding:10px"  onclick = "Sign('*')">
+<br><br>
+  <input type="button" value = '.'  style = "padding:10px"  onclick = "Sign('.')">&nbsp;
+  <input type="button" value = '0'  style = "padding:10px"  onclick = "btn('0')">
+  <input type="button" value = 'CE' style = "padding:10px"  onclick = "Clear('')">
+  <input type="button" value = '/'  style = "padding:10px"  onclick = "Sign('/')"><br>
+    <input type="button" value = '=' style = "padding:10px"  onclick = "result()">
+
+
+
+
+
+ </form>
+
+
+
+</body>
+</html>
